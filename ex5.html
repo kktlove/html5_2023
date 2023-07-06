@@ -12,10 +12,18 @@
     <img src="./img/newjeans1.webp" alt="뉴진스" title="아이러브뉴진스">
     <hr>
     <h3>오디오</h3>
-    <audio src="./sound/sample1.mp3" controls autoplay muted></audio>
+    <audio controls autoplay muted>
+        <source src="./sound/ditto.mp3" type="audio/mp3">
+        <source src="./sound/ditto.ogg" type="audio/ogg">
+        <source src="./sound/ditto.wav" type="audio/wav">
+    </audio>
     <hr>
     <h3>비디오</h3>
-    <video src="./movie/ditto.mp4" controls autoplay muted></video>
+    <video poster="./img/newjeans1.webp" controls loop muted>
+        <source src="./movie/ditto.mp4" type="video/mp4">
+        <source src="./movie/ditto.ogv" type="video/ogg">
+        <source src="./movie/ditto.webm" type="video/webm">
+    </video>
     <hr>
     <h3>iframe 요소</h3>
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/6ZUIwj3FgUY" title="IVE 아이브 &#39;I AM&#39; MV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
